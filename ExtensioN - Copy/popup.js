@@ -27,6 +27,8 @@ chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
         var res = document.getElementById('result');
         var fakeUrgency = document.getElementById('fakeUrgency');
 
+      
+
         title.innerHTML = response.title;
         price.innerHTML = response.price;
         mrp.innerHTML = response.mrp;
@@ -35,7 +37,7 @@ chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
         // adisc.innerHTML = null; // Assuming you don't need actual discount in this case
         rate.innerHTML = response.rate;
         fakeUrgency.innerHTML = response.fakeUrgency;
-
+        
         res.innerHTML = 'Dark Pattern Detected'; // Assuming there's no dark pattern
         // adisc.style.backgroundColor = 'green';
         fakeUrgency.style.backgroundColor = 'red';
@@ -55,4 +57,10 @@ chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
     document.getElementById('infoTable').style.display = 'none';
     document.getElementById('result').innerHTML = "This extension only works on Amazon.in";
   }
+  // document.addEventListener('DOMContentLoaded', function() {
+  //   var openFlipkartButton = document.getElementById('openFlipkart');
+  //   openFlipkartButton.addEventListener('click', function() {
+  //     chrome.tabs.create({ url: "https://www.flipkart.com" });
+  //   }, false);
+  // }, false);
 });

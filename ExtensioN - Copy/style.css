@@ -143,8 +143,7 @@ th {
   text-align: justify;
 }
 
-/* Add animation for the button */
-@keyframes buttonAppear {
+/* @keyframes buttonAppear {
   from {
     opacity: 0;
     transform: translateY(10px);
@@ -155,8 +154,7 @@ th {
   }
 }
 
-/* Style for the Flipkart button */
-#flipkartButton {
+#openFlipkart {
   display: none;
   margin-top: 20px;
   padding: 10px 20px;
@@ -168,7 +166,7 @@ th {
   animation: buttonAppear 0.5s ease forwards;
 }
 
-/* Hover effect for the Flipkart button */
-#flipkartButton:hover {
+
+#openFlipkart:hover {
   background-color: #0056b3;
-}
+} */
