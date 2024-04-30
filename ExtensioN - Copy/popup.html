@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Web</title>
+  <link rel="icon" href="assets/icon.png" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Info Web</h1>
+  <img src="./assets/bg.png" alt="" height="250px" id="gen">
+  <form action="#" method="post" class="con">
+    <p><strong>Note:</strong> It doesn't work for refurbished products...</p>
+    <div class="spinner" id="spinner" style="display: none;"></div>
+    <table id="infoTable" style="display: none;">
+      <thead>
+        <tr>
+          <th>Parameters</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Title</th>
+          <td id="title"></td>
+        </tr>
+        <tr>
+          <th>Price</th>
+          <td id="price"></td>
+        </tr>
+        <tr>
+          <th>MRP</th>
+          <td id="mrp"></td>
+        </tr>
+        <!-- <tr>
+          <th>Launch Price</th>
+          <td id="lp"></td>
+        </tr>
+        <tr> -->
+          <th>Discount</th>
+          <td id="dis"></td>
+        </tr>
+        <tr>
+          <th>Ratings</th>
+          <td id="rate"></td>
+        </tr>
+        <tr>
+          <th>Fake Urgency</th>
+          <td id="fakeUrgency"></td>
+        </tr>
+      </tbody>
+    </table>
+    <img src="./assets/error.png" alt="" height="250px" id="error">
+    <h6 id="result"></h6>
+  </form>
+  <!-- Flipkart Button -->
+  <button id="flipkartButton" style="display: none;" onclick="openFlipkart()" data-flipkart-url="">Open on Flipkart</button>
+  <script src="popup.js"></script>
+</body>
+</html>

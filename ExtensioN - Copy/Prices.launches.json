@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "656d6e1a404c285a74bfe020"
+  },
+  "product": "        Crocs Unisex Adult Navy/Pepper LiteRide 360 Clog 206708-4CC-M9W11       ",
+  "price": "₹6,495"
+},
+{
+  "_id": {
+    "$oid": "656d6ea7404c285a74bfe021"
+  },
+  "product": "        Samsung Galaxy A54 5G (Awesome Violet, 8GB, 256GB Storage) | 50 MP No Shake Cam (OIS) | IP67 | Gorilla Glass 5 | Voice Focus | Without Charger       ",
+  "price": "₹35,499"
+},
+{
+  "_id": {
+    "$oid": "656d6f03404c285a74bfe022"
+  },
+  "product": "Shirt 32 Half",
+  "price": "700"
+},
+{
+  "_id": {
+    "$oid": "656d6f3d404c285a74bfe023"
+  },
+  "product": "Jeans 32",
+  "price": "1700"
+},
+{
+  "_id": {
+    "$oid": "656d6f7b404c285a74bfe024"
+  },
+  "product": "Sony Headphones",
+  "price": "4,500"
+},
+{
+  "_id": {
+    "$oid": "656d6fa2404c285a74bfe025"
+  },
+  "product": "Boat Headphones",
+  "price": "1,999"
+},
+{
+  "_id": {
+    "$oid": "656d6fd9404c285a74bfe026"
+  },
+  "product": "Boat Smartwatch",
+  "price": "1,599"
+},
+{
+  "_id": {
+    "$oid": "656d6ffd404c285a74bfe027"
+  },
+  "product": "Fire-Boltt Smartwatch",
+  "price": "1,999"
+},
+{
+  "_id": {
+    "$oid": "656d7022404c285a74bfe028"
+  },
+  "product": "Noise Smartwatch",
+  "price": "4,799"
+},
+{
+  "_id": {
+    "$oid": "656d70d3404c285a74bfe029"
+  },
+  "product": "JBL BT Speakers",
+  "price": "2,999"
+},
+{
+  "_id": {
+    "$oid": "656d70f3404c285a74bfe02a"
+  },
+  "product": "Boat BT Speakers",
+  "price": "2,600"
+},
+{
+  "_id": {
+    "$oid": "65978ad50275a2d6be110fe2"
+  },
+  "product": "Shirt 32 Full",
+  "price": "750"
+}]

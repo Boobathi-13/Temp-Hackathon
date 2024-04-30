@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Amazon Scraper",
+  "version": "1.0",
+  "description": "Scrape data from Amazon",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icon2.png",
+      "48": "assets/icon2.png",
+      "128": "assets/icon2.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icon2.png",
+    "48": "assets/icon2.png",
+    "128": "assets/icon2.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ]
+}
